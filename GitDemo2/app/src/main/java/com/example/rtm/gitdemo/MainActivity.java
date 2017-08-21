@@ -2,6 +2,7 @@ package com.example.rtm.gitdemo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,7 +11,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         // 练习使用git
-
+ int b = 10;
+        b++;
+        Log.d("MainActivity", "b:" + b);
     }
 
     @Override
@@ -28,5 +31,7 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
         // 第四次提交的内容
         // 准备进行第七次提交了, 看看效果
+        // 第八次提交
+        String a = "123";
     }
 }
