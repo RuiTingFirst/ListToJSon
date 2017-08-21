@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
+        // 第五次提交
+        String str = "第五次提交";
     }
 
     @Override
