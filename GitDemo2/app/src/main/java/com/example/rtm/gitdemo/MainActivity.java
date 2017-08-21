@@ -12,4 +12,14 @@ public class MainActivity extends AppCompatActivity {
         // 练习使用git
 
     }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
 }
