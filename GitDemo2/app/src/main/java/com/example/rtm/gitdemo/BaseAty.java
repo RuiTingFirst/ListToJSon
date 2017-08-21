@@ -18,6 +18,11 @@ public class BaseAty extends AppCompatActivity {
         b += 1;
         String c = a + b;
         log(c);
+        logInt(b);
+    }
+
+    private void logInt(int b) {
+        Log.d("BaseAty", "b:" + b);
     }
 
     private void log(String c) {

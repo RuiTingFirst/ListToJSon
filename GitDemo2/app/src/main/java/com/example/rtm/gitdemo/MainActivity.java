@@ -14,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
  int b = 10;
         b++;
         Log.d("MainActivity", "b:" + b);
+        //
+        String d = "13221r32";
     }
 
     @Override
