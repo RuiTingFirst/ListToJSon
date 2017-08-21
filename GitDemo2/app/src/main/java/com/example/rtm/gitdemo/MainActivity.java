@@ -18,8 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onPause();
         // 第五次提交
         String str = "第五次提交";
-        // 第六次进行提交
-        String string = "第六次提交的结果";
+
     }
 
     @Override
