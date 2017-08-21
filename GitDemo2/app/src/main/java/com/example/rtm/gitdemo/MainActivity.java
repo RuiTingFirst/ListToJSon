@@ -32,6 +32,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         // 第四次提交的内容
-        // 准备进行第七次提交了, 看看效果
+
     }
 }
